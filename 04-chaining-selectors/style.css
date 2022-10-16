@@ -2,7 +2,10 @@
     height: auto;
     width: 300px;
 }
-
+/*
+The dot with no space between between 
+the names creates the chaining
+*/
 
 .avatar.distorted {
     height: 400px;
