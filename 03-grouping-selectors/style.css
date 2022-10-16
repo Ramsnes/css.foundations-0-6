@@ -1,0 +1,24 @@
+.innie,
+.outie {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+/*
+Combine the values with more elements with a name, followed
+by a comman, then add a new name*/
+
+
+
+.outie {
+    background-color: #ffc300;
+    color: #000000;
+}
+/*
+Add unique values to a name by adding a separate syntax with it's name.
+
+
+The color black was not needed here if the 
+color of .innie was not changed
+*/
