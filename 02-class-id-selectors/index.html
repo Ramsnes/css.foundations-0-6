@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class and ID Selectors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+
+  <body>
+
+    <!--
+        Remember:
+        
+        1.
+        Odd-numbers are to be pink, except thirds element has bigger font.
+        First and fifth element share the same class-name
+            Third element cannot share same name, since it differenciate.
+
+        2.
+        The even numbered div's are to have unique IDs.
+
+        3.
+        Third element has have multiple classes
+            (salmon1 bigsalmon)
+    -->
+
+    <p class="salmon1">Number 1 - I'm a class!</p>
+    <!--
+        Just choose a class-name and reffer to it later in styles.css.
+    class is styled as .name
+    -->
+
+    <div id="blue">Number 2 - I'm one ID.</div>
+    <!--
+        <div id="klassenavn"> 
+        id is styled as #name
+    -->
+
+    <p class="salmon1 bigsalmon">Number 3 - I'm a class, but cooler!</p>
+    <!--
+        Differenciate the previous class of 'salmon' with the 
+        name 'bigsalmon', since the third was to be "cooler" in the task
+    -->
+
+    <div id="acid">Number 4 - I'm another ID.</div>
+
+
+    <p class="salmon1">Number 5 - I'm a class!</p>
+    <!--
+        This element does not need to be styled, as it has the same name
+        as the first element, thus giving it the same values as the first.
+    -->
+
+  </body>
+</html>

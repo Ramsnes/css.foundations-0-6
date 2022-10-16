@@ -1,0 +1,44 @@
+/*Remember the task was to give a 'odd numbered' classes a pink background*/
+
+
+.salmon1 {
+    background-color: rgb(159, 43, 104);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+/*
+Use .(period followed by the class-name) when styling a class
+*/
+
+
+#blue {
+    color: #191970;
+    font-size: 36px;
+}
+/*
+Use # (hashtag followed by the id-name) when styling an id
+*/
+
+
+.bigsalmon {
+    font-size: 24px;
+}
+/*
+.bigsalmon takes the background-color from '.salmon1' because of the
+multiple classes this third element has.
+
+Background-color is the same as 'salmon1, only converted to hexa.
+*/
+
+
+#acid {
+    background-color: #6abd3d;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+/*
+The fifth element in the task does not need to be written, cause it 
+has the same name as the first element, giving the fifth the same values
+as the first.
+*/
