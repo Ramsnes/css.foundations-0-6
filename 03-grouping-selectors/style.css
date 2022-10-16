@@ -7,7 +7,8 @@
 }
 /*
 Combine the values with more elements with a name, followed
-by a comman, then add a new name*/
+by a comman, then add a new name
+*/
 
 
 
@@ -18,7 +19,36 @@ by a comman, then add a new name*/
 /*
 Add unique values to a name by adding a separate syntax with it's name.
 
-
 The color black was not needed here if the 
 color of .innie was not changed
 */
+
+
+
+
+/*
+Possible solution from task: 
+
+
+1. Make font-family and font-size similar.
+
+.innie,
+.outie [
+    font-family Helvetica, "Times New Roman", sans,serif;
+    font-size: 28px;
+]
+
+
+
+2. Add unique background-color on both (black, yellow) and font color
+on outie white.
+
+.outie [
+    background-color: black;
+    color: white;
+    
+]
+
+.innie [
+    background-color: yellow;
+]
