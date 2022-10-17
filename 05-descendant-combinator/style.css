@@ -1,0 +1,27 @@
+/* #1 Possible answer (my answer)*/
+
+.container .text {
+    background-color: #ffc300;
+    color: #c70039;
+}
+
+/*
+/#2 Possible answer
+div p {
+    background-color: #ffc300;
+    color: #c70039;
+}
+
+
+#3 Possible answer
+div .text {
+    background-color: #ffc300;
+    color: #c70039;
+}
+
+
+/* #4 Possible answer
+.container p {
+    background-color: #ffc300;
+    color: #c70039;
+}
