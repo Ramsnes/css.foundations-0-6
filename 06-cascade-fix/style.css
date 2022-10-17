@@ -1,0 +1,53 @@
+body{
+    font-family:Arial, Helvetica, sans-serif
+  }
+  
+  .para,
+  .small-para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+  }
+
+    /* Added 'p' to chain the selectors 'p' and '.small-para', giving
+  the rule a higher specificity*/
+  p.small-para {
+    font-size: 14px;
+    font-weight: 800;
+  }
+  
+  .para {
+    font-size: 22px;
+  }
+
+  /* Added this '.button-section' to force both buttons to have 20px*/
+.button {
+    font-size: 20px;
+}
+
+  #confirm-button {
+    background: green;
+    color: white;
+    font-weight: bold;
+  } 
+  
+    /* Added correct name (from '.button' to '#cancel-button')*/
+  #cancel-button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  
+
+
+/* Added 'div.text' before .child*/
+  div.text.child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+  }
+  
+  div.text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+  }
